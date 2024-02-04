@@ -1,0 +1,48 @@
+body{
+    width:500px;
+    height:390px;
+}
+
+.ring{
+    background-color: rgb(70, 70, 245);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:96%;
+    height:95%;
+    background-color: lightgrey;
+    border-radius: 25px;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: lightgrey;
+}
+.centered{
+    text-align: center;
+}
+
+.saveButton{
+    width:200px;
+    margin-bottom: 20px;
+}
+
+.city{
+    margin-bottom: 5px;
+}
+
+.city:hover{
+    cursor: pointer;
+}
