@@ -27,7 +27,7 @@
       "matches": ["http://*/*", "https://*/*"]
     }
   ],
-  "permissions": ["scripting", "activeTab", "tabs", "storage", "audio"],
+  "permissions": ["storage"],
   "host_permissions": ["https://allmh.traumasoft.com/main.php?a=cadv3:dispatch/main"],
   "commands": {
     "_execute_action": {

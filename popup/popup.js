@@ -6,7 +6,7 @@ const notAddedAlertsList = document.getElementById('notaddedalerts')
 
 const saveButton = document.getElementById("savechangesbutton")
 
-const listOfCitys = ['Austin', 'Carrollton', 'CorpusChristi', 'Ellis', 'Houston', 'Livingston', 'Matagorda', 'Navarro', 'SanAntonio', 'Shelby', 'Vidor', 'No Zone']
+const listOfCitys = ['Austin', 'Carrollton', 'CorpusChristi', 'Ellis', 'Houston','Jasper', 'Livingston', 'Matagorda', 'Navarro', 'SanAntonio', 'Shelby', 'Vidor', 'No Zone']
 let notAdded = []
 let added = []
 const elements = []
@@ -161,5 +161,5 @@ function sortAlphabeticaly(list){
     return list.sort()
 }
 
-// chrome.storage.local.clear()
+// chrome.storage.sync.clear()
 

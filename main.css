@@ -1,6 +1,6 @@
 body{
     width:500px;
-    height:390px;
+    height:550px;
 }
 
 .ring{
@@ -45,4 +45,9 @@ body{
 
 .city:hover{
     cursor: pointer;
+}
+
+.list{
+    list-style-type: none;
+    padding-left: 10px;
 }
